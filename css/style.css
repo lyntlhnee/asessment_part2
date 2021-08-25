@@ -1,0 +1,257 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+
+/* global config */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* global styling */
+html,
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.5em;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+p {
+    margin: 10px;
+    
+}
+
+/* Utility Classes */
+.container {
+    margin: auto;
+    max-width: 1200px;
+    overflow: auto;
+    padding: 0 20px;
+    height: 250px;
+    background-color:#f4f4f4;
+}
+
+.text-center {
+    color: #343434;
+    text-align: center;
+    padding-top: 30px;
+    /* padding-bottom: 0; */
+}
+
+.text-primary {
+    color: #97cd57;
+    text-align: center;
+    padding-top: 30px;
+    /* padding-bottom: 0; */
+}
+
+.bg-light .py-1 {
+    margin-top: 50px;
+
+}
+
+.bg-dark {
+}
+
+.bg-primary {
+}
+
+.l-heading {
+}
+
+.m-heading {
+}
+
+.lead {
+}
+
+.py-1 {
+}
+.py-2 {
+}
+.py-3 {
+}
+
+.p-1 {
+}
+.p-2 {
+    /* margin: 1em;
+    list-style: none; */
+}
+.p-3 {
+}
+
+.btn {
+    display: inline-block;
+    font-size: 15px;
+    color: #fff;
+    background: #97cd57;
+    padding: 8px 35px;
+    border:none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn:hover {
+}
+
+.btn-dark {
+}
+
+.list {
+}
+
+.list li {
+}
+
+/* Navbar */
+#navbar {
+    background:#131111;
+    overflow: auto;
+    color: #fff;
+    
+   
+}
+
+#navbar ul {
+    list-style: none;
+    float:right;
+    
+}
+#navbar ul li {
+    float:left;
+}
+#navbar ul li a {
+    display: block;
+    padding: 20px;    
+}
+#navbar h1 {
+    float:left;
+    padding-top: 20px;
+}
+
+#navbar ul li a:hover {
+}
+
+
+/* Showcase */
+#showcase {
+    background: url("../img/main-background.jpg") no-repeat center center/cover;
+    height: 600px;
+    
+}
+
+#showcase .showcase-content {
+    color: #fff;
+    text-align: center;
+    padding-top: 200px;
+    background: rgba(152, 153, 153, 0.4);
+    overflow: hidden;
+    height: 600px;
+    z-index: 2;
+}
+#showcase .showcase-content h1{
+    font-size: 60px;
+    line-height: 1.2em;
+}
+
+/* Section: What We Do */
+#what .items {
+    margin: auto;
+    display: flex;
+    padding: auto;
+    flex: auto;
+    
+    
+}
+
+
+#what .items .item {
+    
+    width: 33%;
+    overflow: hidden;
+    text-align: center;
+    padding: 32px;
+    flex-wrap: none;
+    padding: auto;
+    
+}
+
+#what .items .item i {
+    float: left;
+    margin: 5px;
+    background-color: #8dca4a;
+    border-color: #8dca4a;
+    border-style:solid;
+    border-radius: 100%;
+    border-width: 10px;
+    
+}
+#what .items .item i h3 {
+    text-align: justify;
+}
+
+/* Section: Who We Are */
+#who {
+    display: flex;
+    /* display: flex;
+    flex: auto;
+    align-items: right;
+    flex-wrap: wrap; */
+}
+
+#who div {
+    flex: 1;
+    padding-top: 2rem;
+}
+
+#who .who-img {
+    position: relative; 
+    margin: 1em;
+    width: 5%;
+    height: 50%;
+    padding: 12rem 0rem;
+    background: url("../img/article.svg") no-repeat center center/cover;
+}
+#who .list {
+    padding-bottom: 1em;
+    list-style: none;
+}
+#who .list .line-1 {
+    padding-bottom: 0.5em;
+    padding-top: 0.5em;
+    border-bottom: dotted;
+}
+#who .list .line-2 {
+    padding-bottom: 0.5em;
+    padding-top: 0.5em;
+    border-bottom: dotted;
+}
+#who .list .line-3 {
+    padding-bottom: 0.5em;
+    padding-top: 0.5em;
+    border-bottom: dotted;
+}
+#who .list .line-4 {
+    padding-bottom: 0.5em;
+    padding-top: 0.5em;
+    border-bottom: dotted;
+}
+#who .list .line-5 {
+    padding-bottom: 0.5em;
+    padding-top: 0.5em;
+    border-bottom: dotted;
+}
+/* Section: Clients */
+#clients .items {
+    display: flex;
+}
+
+#clients .items img {
+  display: block;
+  padding-top: 20px;
+  margin: auto;
+  width: 60%;
+}

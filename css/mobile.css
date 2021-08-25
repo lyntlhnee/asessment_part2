@@ -1,0 +1,30 @@
+
+
+
+
+
+/* Smartphones */
+@media (max-width: 500px) { 
+    
+
+    #what .items {
+        max-width: 100vw;
+        display: flex;
+        
+        
+    }
+    /* Align icon to left */ 
+    #what .items .item {
+        
+        
+  }
+  /* Position icon */
+    #what .items .item i {
+        /* display: block;
+        padding-top: 20px;
+        margin: auto;
+        width: 60%; */
+    
+  }
+
+}
